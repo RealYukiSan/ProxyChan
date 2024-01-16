@@ -16,11 +16,6 @@
 #define HTTP_SERVER 0x0211c6a2 // 2.17.198.162
 #define PORT_SERVER 443
 
-struct HTTPSInfo {
-	unsigned char *buffer;
-	unsigned char bufferLen;
-} __packed __aligned(8);
-
 struct EnetGrowtopia {
 	unsigned short port;
 	char ip_string[16];
